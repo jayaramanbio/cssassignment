@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+}
+.header span{
+    color:red;
+}
+.header div ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.header ul li:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.secondlayer{
+    background-image: url(../Template/template5img2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.image{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.content h1{
+    color: white;
+}
+.content p{
+    color: gray;
+}
+.content span{
+    color: #f9004d;
+}
+.spec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 50px;
+}
+.spec div{
+    color: white;
+}
+.spec div p{
+    color: gray;
+}
+.spec div button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-image: url(../Template/template5img2.jpg);
+
+}
+.info1{
+    padding-left: 190px;
+    color: white;
+    height: 20px;
+}
+.info2{
+    padding-left: 100px;
+    color: white;
+}
+.info span{
+    color: gray;
+}
+.info2 div{
+    display: flex;
+    justify-content: space-around;
+    color: #f9004d;
+    padding-top: 40px;
+}
+.info3{
+    padding-left: 150px;
+    color: white;
+}
+.info3 img{
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.copy1{
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-top: 30px;
+
+}
+.copy2{
+    float: right;
+    padding-right: 50px;
+    
+
+}
