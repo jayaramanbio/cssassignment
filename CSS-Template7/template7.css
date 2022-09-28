@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    
+}
+.left-bar{
+    height: 100vh;
+    background-color: gray;
+    width: 20%;
+    position: fixed;
+}
+.logo{
+    padding: 10px 0px;
+    margin: auto;
+    width: 80%;
+
+}
+.menu{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.menu a{
+    height: 20px;
+    color: white;
+    background-color: grey;
+    border-bottom: 2px solid rgb(0,0,0);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.Right-bar{
+    position: absolute;
+    width: 80%;
+    left: 20%;
+}
+.layer1{
+    background-image: url(./image1.jpg);
+    height: 250px;
+    width: 100%;
+}
+.p{
+    text-align: center;
+}

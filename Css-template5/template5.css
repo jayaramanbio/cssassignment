@@ -18,17 +18,24 @@
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
-    color: white;
+    
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 24px 30px;
+    border-radius: 80px;
+
+    
 }
 .header ul li:hover{
-    color: #f9004d;
+    color:white;    
     transition: .4s;
+    background-color: #f9004d;
 }
 .secondlayer{
-    background-image: url(../Template/template5img2.jpg);
+    background-image: url(../Css-template5/template5img2.jpg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -78,7 +85,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 50px;
-    background-image: url(../Template/template5img2.jpg);
+    background-image: url(../Css-template5/template5img2.jpg);
 
 }
 .info1{
@@ -117,6 +124,5 @@
 .copy2{
     float: right;
     padding-right: 50px;
-    
-
+          
 }

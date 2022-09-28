@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Firstlayer{
+    background-image: url(./joshua-earle-9idqIGrLuTE-unsplash.jpg);
+    height: 600px;
+    
+
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid transparent;
+    border-color: white;
+    
+}
+.firstleftside{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 300px;
+}
+.firstleftside span{
+    font-size: small;
+}
+.firstrightside{
+    color: white;
+    font-size: 20px;
+
+
+}
+.firstrightside a{
+    color: black;
+    text-decoration: none;
+    padding: 1px 10px;
+    padding-right: 60px;
+    
+    
+}
+.firstrightside a:hover{
+    background-color: lightgreen;
+    transition: .4s;
+    color: white;
+
+}
+.content{
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0px;
+    
+}
+.content p{
+    padding: 20px 0px;    
+}
+.fontawesome{
+    color: green;
+    
+}
+.Secondlayer{
+    margin: 0px 80px;
+}
+.topside{
+    text-align: center;
+    padding: 50px;
+}
+.about{
+
+    
+}
+.about span{
+    color: green;
+}
+.secondcontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    width: 100%;
+}
+.leftside{
+    width: 50%;
+}
+.rightside{
+    color: black;
+    width: 50%;
+}
+.rightside p{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.down{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    height: 30px ;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.hire{
+    color: gray;
+    border: 1px solid;
+    border-color: gray;
+    text-decoration: none;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.hire:hover{
+    color: white;
+    background-color: gray;
+    transition: 0.33s;
+}
+.fontawesome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px  6px;
+    
+}
+.font{
+    height: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 3px;
+}
+.font:hover{
+    background-color: green;
+    transition: .4s;
+    color: white;
+}
+.thirdlayer{
+    background-image: url(./joshua-earle-9idqIGrLuTE-unsplash.jpg);
+    height: 600px;
+}
+.thirdtop{
+    text-align: center;
+    padding: 100px;
+}
+.thirdtop span{
+    color: green;
+
+}
+.thirdtop h3{
+    font-size: 30px;
+    color: white;
+}
+.layer{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.layercon{
+    width: 100%;
+    display: flex;
+}
+.layerone{
+    width: 30%
+    margin: 0px 50px;
+
+}
+.one{
+    text-align: center;
+    width: 100%;
+
+}
+.two{
+    width: 8%;
+    background-color: green;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    margin-left: 140px;
+    align-content: center;
+    font-size: 30px;
+    border-radius: 15px 20px;
+}
+.three{
+    width: 25%;
+    background-color: white;
+    color: black;
+    height: 200px;
+    font-size: 20px;
+}
+.layertwo{
+    width: 30%
+}
+.layerthree{
+    width: 30%
+}
